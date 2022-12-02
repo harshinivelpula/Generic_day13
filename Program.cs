@@ -4,7 +4,10 @@
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("welcome to generic problem");
+            int[] arr = {2000,1999,1998};
+            GenericMaximum<int> generic = new GenericMaximum<int>(arr);
+            generic.PrintMaxValue();
+
         }
     }
 }
